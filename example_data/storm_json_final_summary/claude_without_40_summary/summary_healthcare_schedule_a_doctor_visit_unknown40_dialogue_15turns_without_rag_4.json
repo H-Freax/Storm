@@ -1,0 +1,151 @@
+{
+    "summary_overall": "negative",
+    "topics_covered": [
+        "scheduling a doctor visit",
+        "booking an appointment quickly",
+        "providing a name for booking"
+    ],
+    "statistics": {
+        "average_score": 0.25333333333333335,
+        "min_score": 0.0,
+        "max_score": 0.7,
+        "score_variance": 0.05155555555555556
+    },
+    "satisfaction_evolution": [
+        {
+            "turn_index": 0,
+            "score": 0.5,
+            "delta": null
+        },
+        {
+            "turn_index": 1,
+            "score": 0.6,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 2,
+            "score": 0.5,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 3,
+            "score": 0.4,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 4,
+            "score": 0.6,
+            "delta": 0.2
+        },
+        {
+            "turn_index": 5,
+            "score": 0.3,
+            "delta": -0.3
+        },
+        {
+            "turn_index": 6,
+            "score": 0.2,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 7,
+            "score": 0.5,
+            "delta": 0.3
+        },
+        {
+            "turn_index": 8,
+            "score": 0.7,
+            "delta": 0.2
+        },
+        {
+            "turn_index": 9,
+            "score": 0.2,
+            "delta": -0.5
+        },
+        {
+            "turn_index": 10,
+            "score": 0.1,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 11,
+            "score": 0.0,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 12,
+            "score": 0.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 13,
+            "score": 0.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 14,
+            "score": 0.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 15,
+            "score": 0.0,
+            "delta": 0.0
+        }
+    ],
+    "important_turns": [
+        {
+            "turn_index": 5,
+            "user_message": "Please just let me book an appointment already!",
+            "score_before": 0.6,
+            "score_after": 0.3,
+            "change": -0.3,
+            "reason": "User expressed frustration with the pace of the conversation."
+        },
+        {
+            "turn_index": 9,
+            "user_message": "Let's finally get this done! Here's the name.",
+            "score_before": 0.7,
+            "score_after": 0.2,
+            "change": -0.5,
+            "reason": "User's expectation to finalize the booking was not met."
+        }
+    ],
+    "detailed_findings": [
+        {
+            "turn_index": 5,
+            "context_before": [
+                "User: Can we speed it up? I need to know how soon I can see someone!",
+                "Assistant: [Response not provided]"
+            ],
+            "context_after": [
+                "User: Can I just give you a name and get it done?",
+                "Assistant: [Response not provided]"
+            ],
+            "analysis": "The user repeatedly asked to expedite the process, indicating growing impatience. The assistant's responses likely did not address this urgency effectively.",
+            "recommendation": "The assistant should acknowledge the user's urgency and provide a clear, concise path to booking the appointment."
+        },
+        {
+            "turn_index": 9,
+            "context_before": [
+                "User: I have the name ready, so let's wrap this up!",
+                "Assistant: [Response not provided]"
+            ],
+            "context_after": [
+                "User: I just want to give you the name and get it done!",
+                "Assistant: [Response not provided]"
+            ],
+            "analysis": "The user was ready to finalize the booking but did not perceive progress, leading to a significant drop in satisfaction.",
+            "recommendation": "The assistant should ensure that the user feels their input is being processed and that the booking is progressing towards completion."
+        }
+    ],
+    "contextual_notes": [
+        "The user consistently expressed a need for speed and efficiency in booking a doctor appointment.",
+        "The conversation lacked assistant responses, making it difficult to assess the exact cause of user dissatisfaction."
+    ],
+    "general_insights": [
+        "Users seeking to book appointments value efficiency and clarity in the process.",
+        "Acknowledging user urgency and providing a clear path forward can improve satisfaction.",
+        "Ensuring users feel their input is being processed is crucial in maintaining satisfaction."
+    ]
+}

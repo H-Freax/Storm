@@ -1,0 +1,154 @@
+{
+    "summary_overall": "mixed",
+    "topics_covered": [
+        "scheduling a doctor visit",
+        "availability for a visit",
+        "preference for a general practitioner",
+        "clinic location preference",
+        "options for appointments",
+        "confirmation of appointment time"
+    ],
+    "statistics": {
+        "average_score": 0.76,
+        "min_score": 0.3,
+        "max_score": 1.0,
+        "score_variance": 0.056
+    },
+    "satisfaction_evolution": [
+        {
+            "turn_index": 0,
+            "score": 0.5,
+            "delta": null
+        },
+        {
+            "turn_index": 1,
+            "score": 0.6,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 2,
+            "score": 0.5,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 3,
+            "score": 0.4,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 4,
+            "score": 0.7,
+            "delta": 0.3
+        },
+        {
+            "turn_index": 5,
+            "score": 0.8,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 6,
+            "score": 0.9,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 7,
+            "score": 1.0,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 8,
+            "score": 0.3,
+            "delta": -0.7
+        },
+        {
+            "turn_index": 9,
+            "score": 0.8,
+            "delta": 0.5
+        },
+        {
+            "turn_index": 10,
+            "score": 1.0,
+            "delta": 0.2
+        },
+        {
+            "turn_index": 11,
+            "score": 0.9,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 12,
+            "score": 0.9,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 13,
+            "score": 0.8,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 14,
+            "score": 0.9,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 15,
+            "score": 0.9,
+            "delta": 0.0
+        }
+    ],
+    "important_turns": [
+        {
+            "turn_index": 8,
+            "user_message": "I can do either morning or afternoon; let’s just see the options.",
+            "score_before": 1.0,
+            "score_after": 0.3,
+            "change": -0.7,
+            "reason": "The user expressed flexibility but the assistant may not have provided options promptly."
+        },
+        {
+            "turn_index": 9,
+            "user_message": "I’ll take 9am, please!",
+            "score_before": 0.3,
+            "score_after": 0.8,
+            "change": 0.5,
+            "reason": "The user received a satisfactory option and confirmed a time, leading to increased satisfaction."
+        }
+    ],
+    "detailed_findings": [
+        {
+            "turn_index": 8,
+            "context_before": {
+                "assistant_message": "What are the options?",
+                "user_message": "What are the options?"
+            },
+            "context_after": {
+                "assistant_message": "I’ll take 9am, please!",
+                "user_message": "I’ll take 9am, please!"
+            },
+            "analysis": "The user's satisfaction dropped significantly, likely due to a lack of immediate options or clarity from the assistant.",
+            "recommendation": "The assistant should ensure timely and clear presentation of available options to maintain user satisfaction."
+        },
+        {
+            "turn_index": 9,
+            "context_before": {
+                "assistant_message": "I can do either morning or afternoon; let’s just see the options.",
+                "user_message": "I can do either morning or afternoon; let’s just see the options."
+            },
+            "context_after": {
+                "assistant_message": "Thank you for helping me with this!",
+                "user_message": "Thank you for helping me with this!"
+            },
+            "analysis": "The user was able to select a specific time, which resolved their query and improved satisfaction.",
+            "recommendation": "The assistant should aim to facilitate quick decision-making by providing clear and concise options."
+        }
+    ],
+    "contextual_notes": [
+        "The user showed a preference for quick and clear options for scheduling.",
+        "The conversation experienced fluctuations in satisfaction, indicating varying levels of clarity or responsiveness."
+    ],
+    "general_insights": [
+        "Providing clear and immediate options can significantly enhance user satisfaction.",
+        "Flexibility in scheduling should be matched with prompt and specific options to prevent user frustration.",
+        "Maintaining a consistent level of responsiveness and clarity is crucial in service-oriented interactions."
+    ]
+}

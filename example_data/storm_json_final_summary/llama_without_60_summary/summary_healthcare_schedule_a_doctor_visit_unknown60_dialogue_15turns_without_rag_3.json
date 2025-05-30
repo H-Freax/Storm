@@ -1,0 +1,185 @@
+{
+    "summary_overall": "positive",
+    "topics_covered": [
+        "scheduling a doctor visit",
+        "specialist referral",
+        "appointment booking",
+        "availability for appointment",
+        "confirmation of appointment"
+    ],
+    "statistics": {
+        "average_score": 0.8666666666666667,
+        "min_score": 0.5,
+        "max_score": 1.0,
+        "score_variance": 0.02711111111111111
+    },
+    "satisfaction_evolution": [
+        {
+            "turn_index": 0,
+            "score": 0.5,
+            "delta": null
+        },
+        {
+            "turn_index": 1,
+            "score": 0.8,
+            "delta": 0.3
+        },
+        {
+            "turn_index": 2,
+            "score": 0.9,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 3,
+            "score": 0.7,
+            "delta": -0.2
+        },
+        {
+            "turn_index": 4,
+            "score": 0.8,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 5,
+            "score": 0.9,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 6,
+            "score": 0.7,
+            "delta": -0.2
+        },
+        {
+            "turn_index": 7,
+            "score": 0.9,
+            "delta": 0.2
+        },
+        {
+            "turn_index": 8,
+            "score": 1.0,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 9,
+            "score": 1.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 10,
+            "score": 1.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 11,
+            "score": 1.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 12,
+            "score": 1.0,
+            "delta": 0.0
+        },
+        {
+            "turn_index": 13,
+            "score": 0.8,
+            "delta": -0.2
+        },
+        {
+            "turn_index": 14,
+            "score": 0.9,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 15,
+            "score": 0.8,
+            "delta": -0.1
+        }
+    ],
+    "important_turns": [
+        {
+            "turn_index": 0,
+            "user_message": "I need information about schedule a doctor visit.",
+            "score_before": null,
+            "score_after": 0.8,
+            "change": 0.3,
+            "reason": "Initial uncertainty about the process was addressed, leading to increased satisfaction."
+        },
+        {
+            "turn_index": 3,
+            "user_message": "The specialist is an endocrinologist.",
+            "score_before": 0.9,
+            "score_after": 0.7,
+            "change": -0.2,
+            "reason": "Specificity about the specialist may have introduced complexity or uncertainty."
+        },
+        {
+            "turn_index": 6,
+            "user_message": "I am available most weekdays after 3 PM.",
+            "score_before": 0.9,
+            "score_after": 0.7,
+            "change": -0.2,
+            "reason": "Availability constraints may have introduced scheduling challenges."
+        },
+        {
+            "turn_index": 13,
+            "user_message": "Take care!",
+            "score_before": 1.0,
+            "score_after": 0.8,
+            "change": -0.2,
+            "reason": "The conversation was winding down, possibly leading to a slight drop in engagement."
+        }
+    ],
+    "detailed_findings": [
+        {
+            "turn_index": 0,
+            "context_before": [],
+            "context_after": [
+                "I need information about schedule a doctor visit."
+            ],
+            "analysis": "The user started with a low satisfaction score due to a lack of information.",
+            "recommendation": "Provide clear initial guidance on scheduling processes to improve early satisfaction."
+        },
+        {
+            "turn_index": 3,
+            "context_before": [
+                "Yes, I have the referral paperwork with me."
+            ],
+            "context_after": [
+                "The specialist is an endocrinologist."
+            ],
+            "analysis": "Mentioning the specific type of specialist may have raised concerns about appointment availability.",
+            "recommendation": "Reassure users about the process of scheduling with specialists to maintain confidence."
+        },
+        {
+            "turn_index": 6,
+            "context_before": [
+                "Yes, I would appreciate your help with booking the appointment."
+            ],
+            "context_after": [
+                "I am available most weekdays after 3 PM."
+            ],
+            "analysis": "User's specific availability may have complicated the scheduling process.",
+            "recommendation": "Acknowledge availability constraints and offer flexible options to accommodate user needs."
+        },
+        {
+            "turn_index": 13,
+            "context_before": [
+                "Goodbye!"
+            ],
+            "context_after": [
+                "Take care!"
+            ],
+            "analysis": "The conversation was ending, and the drop in score might reflect a natural disengagement.",
+            "recommendation": "Maintain a consistent tone of engagement even as conversations conclude."
+        }
+    ],
+    "contextual_notes": [
+        "User's initial uncertainty about scheduling may have influenced early satisfaction scores.",
+        "The user's specific requirements and constraints played a significant role in satisfaction fluctuations."
+    ],
+    "general_insights": [
+        "Clear guidance at the start of a conversation can significantly improve user satisfaction.",
+        "Acknowledging and addressing user constraints can help maintain satisfaction levels.",
+        "Consistency in engagement, even as conversations conclude, can help sustain positive user experiences."
+    ]
+}

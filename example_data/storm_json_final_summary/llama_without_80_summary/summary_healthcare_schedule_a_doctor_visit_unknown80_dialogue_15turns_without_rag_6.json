@@ -1,0 +1,173 @@
+{
+    "summary_overall": "mixed",
+    "topics_covered": [
+        "scheduling a doctor visit",
+        "early morning appointment preferences",
+        "availability of time slots",
+        "confirmation of appointments"
+    ],
+    "statistics": {
+        "average_score": 0.5666666666666667,
+        "min_score": 0.2,
+        "max_score": 0.9,
+        "score_variance": 0.05822222222222223
+    },
+    "satisfaction_evolution": [
+        {
+            "turn_index": 0,
+            "score": 0.5,
+            "delta": null
+        },
+        {
+            "turn_index": 1,
+            "score": 0.6,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 2,
+            "score": 0.7,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 3,
+            "score": 0.8,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 4,
+            "score": 0.7,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 5,
+            "score": 0.9,
+            "delta": 0.2
+        },
+        {
+            "turn_index": 6,
+            "score": 0.8,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 7,
+            "score": 0.9,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 8,
+            "score": 0.4,
+            "delta": -0.5
+        },
+        {
+            "turn_index": 9,
+            "score": 0.7,
+            "delta": 0.3
+        },
+        {
+            "turn_index": 10,
+            "score": 0.3,
+            "delta": -0.4
+        },
+        {
+            "turn_index": 11,
+            "score": 0.6,
+            "delta": 0.3
+        },
+        {
+            "turn_index": 12,
+            "score": 0.2,
+            "delta": -0.4
+        },
+        {
+            "turn_index": 13,
+            "score": 0.3,
+            "delta": 0.1
+        },
+        {
+            "turn_index": 14,
+            "score": 0.2,
+            "delta": -0.1
+        },
+        {
+            "turn_index": 15,
+            "score": 0.5,
+            "delta": 0.3
+        }
+    ],
+    "important_turns": [
+        {
+            "turn_index": 8,
+            "user_message": "Could you please tell me about other early morning time slots that are available?",
+            "score_before": 0.9,
+            "score_after": 0.4,
+            "change": -0.5,
+            "reason": "The user was likely frustrated due to a lack of clarity or availability of information."
+        },
+        {
+            "turn_index": 10,
+            "user_message": "What are the next available early morning slots?",
+            "score_before": 0.7,
+            "score_after": 0.3,
+            "change": -0.4,
+            "reason": "The user may have been dissatisfied with the response time or the options provided."
+        },
+        {
+            "turn_index": 12,
+            "user_message": "What other early morning slots do you have available?",
+            "score_before": 0.6,
+            "score_after": 0.2,
+            "change": -0.4,
+            "reason": "Repeated requests for information may not have been adequately addressed."
+        }
+    ],
+    "detailed_findings": [
+        {
+            "turn_index": 8,
+            "context_before": [
+                "User: I’d like to schedule the Wednesday 7:30am appointment, please.",
+                "Assistant: [Response not provided]"
+            ],
+            "context_after": [
+                "User: I'll take the Monday 8am appointment, please.",
+                "Assistant: [Response not provided]"
+            ],
+            "analysis": "The user's satisfaction dropped significantly, indicating a possible issue with the assistant's response or lack of available options.",
+            "recommendation": "Ensure the assistant provides clear and comprehensive information about all available slots to prevent user frustration."
+        },
+        {
+            "turn_index": 10,
+            "context_before": [
+                "User: I'll take the Monday 8am appointment, please.",
+                "Assistant: [Response not provided]"
+            ],
+            "context_after": [
+                "User: I'll take the Tuesday 7:45am appointment, please.",
+                "Assistant: [Response not provided]"
+            ],
+            "analysis": "The user expressed dissatisfaction, possibly due to inadequate response or limited options.",
+            "recommendation": "Improve the assistant's ability to quickly and accurately provide available options to maintain user satisfaction."
+        },
+        {
+            "turn_index": 12,
+            "context_before": [
+                "User: I'll take the Tuesday 7:45am appointment, please.",
+                "Assistant: [Response not provided]"
+            ],
+            "context_after": [
+                "User: I’ll go with the Thursday 8am appointment.",
+                "Assistant: [Response not provided]"
+            ],
+            "analysis": "The user's repeated requests for available slots suggest that the assistant's responses were not meeting expectations.",
+            "recommendation": "Enhance the assistant's capability to offer detailed and varied appointment options in response to user queries."
+        }
+    ],
+    "contextual_notes": [
+        "The user consistently requested early morning appointments, indicating a strong preference for this time slot.",
+        "The conversation suggests that the user values prompt and clear information about scheduling options."
+    ],
+    "general_insights": [
+        "Users appreciate quick and comprehensive responses to scheduling queries.",
+        "Providing a variety of options and confirming availability promptly can enhance user satisfaction.",
+        "Understanding user preferences early in the conversation can help tailor responses more effectively."
+    ]
+}
