@@ -7,7 +7,7 @@ Welcome to the official repository for **STORM**, a framework that models asymme
 
 <p align="center" style="font-size:0;">
 
-  <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+  <a href="https://arxiv.org/abs/2506.01881" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
     <img src="https://img.shields.io/badge/arXiv-PDF-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv PDF" style="display:block; height:28px;"/>
   </a>&nbsp;
 
