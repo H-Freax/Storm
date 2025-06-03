@@ -5,25 +5,32 @@
 
 Welcome to the official repository for **STORM**, a framework that models asymmetric information dynamics between user and agent LLMs to track and trigger user intents effectively in task-oriented dialogue.
 
+<p align="center" style="font-size:0;">
 
-<p align="center">
-  
-  <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-    <img src="https://img.shields.io/badge/arXiv-PDF-A42C25?style=flat&logo=arXiv&logoColor=A42C25" alt="arXiv PDF" />
+  <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/arXiv-PDF-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv PDF" style="display:block; height:28px;"/>
+  </a>&nbsp;
+
+  <a href="https://nanostorm.netlify.app/" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/Project-Page-1E90FF?style=for-the-badge&logo=chromium&logoColor=white" alt="Project Page" style="display:block; height:28px;" />
+  </a>&nbsp;
+
+  <a href="https://github.com/H-Freax/Storm" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Code" style="display:block; height:28px;" />
+  </a>&nbsp;
+
+  <a href="https://huggingface.co/datasets/FreaxRuby/storm" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/Dataset-HuggingFace-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white" alt="HuggingFace Dataset" style="display:block; height:28px;" />
+  </a>&nbsp;
+
+  <a href="https://v0-dialogue-analysis-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/Dashboard-Visualization-0066CC?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Dashboard Visualization" style="display:block; height:28px;" />
   </a>
-  <a href="https://nanostorm.netlify.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-    <img src="https://img.shields.io/badge/Project-Page-1E90FF?style=flat&logo=chromium&logoColor=white" alt="Project Page" />
-  </a>
-  <a href="https://github.com/H-Freax/Storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-    <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat&logo=github&logoColor=white" alt="GitHub Code" />
-  </a>
-  <a href="https://huggingface.co/datasets/FreaxRuby/storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-    <img src="https://img.shields.io/badge/Dataset-HuggingFace-FF6F00?style=flat&logo=huggingface&logoColor=white" alt="HuggingFace Dataset" />
-  </a>
-  <a href="https://v0-dialogue-analysis-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-    <img src="https://img.shields.io/badge/Dashboard-Visualization-0066CC?style=flat&logo=chartdotjs&logoColor=white" alt="Dashboard Visualization" />
-  </a>
+
 </p>
+
+
+
 
 ---
 <h2 align="center">Authors</h2>
@@ -137,12 +144,13 @@ Welcome to the official repository for **STORM**, a framework that models asymme
 ---
 
 <p align="center">
-  <strong>Overview of the STORM Framework</strong>
+  <h1>Overview of the STORM Framework</h1>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a456f5ec-cc82-4a8b-a1c1-5569d8674df3" alt="STORM Architecture" />
 </p>
+
 ---
 
 ## Core Features
