@@ -7,69 +7,84 @@ Welcome to the official repository for **STORM**, a framework that models asymme
 
 
 <p align="center">
-
-<a href="https://nanostorm.netlify.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-  <img src="https://img.shields.io/badge/Project-Page-1E90FF?style=flat-square&logo=chromium&logoColor=white" alt="Project Page" />
-</a>
-
-<a href="#" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-  <img src="https://img.shields.io/badge/arXiv-PDF--Coming--Soon-DC143C?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv PDF Coming Soon" />
-</a>
-
-<a href="https://github.com/H-Freax/Storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-  <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Code" />
-</a>
-
-<a href="https://huggingface.co/datasets/FreaxRuby/storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-  <img src="https://img.shields.io/badge/Dataset-HuggingFace-FF6F00?style=flat-square&logo=huggingface&logoColor=white" alt="HuggingFace Dataset" />
-</a>
-
-<a href="https://v0-dialogue-analysis-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
-  <img src="https://img.shields.io/badge/Dashboard-Visualization-0066CC?style=flat-square&logo=chartdotjs&logoColor=white" alt="Dashboard Visualization" />
-</a>
-
+  
+  <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+    <img src="https://img.shields.io/badge/arXiv-PDF-A42C25?style=flat&logo=arXiv&logoColor=A42C25" alt="arXiv PDF" />
+  </a>
+  <a href="https://nanostorm.netlify.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+    <img src="https://img.shields.io/badge/Project-Page-1E90FF?style=flat&logo=chromium&logoColor=white" alt="Project Page" />
+  </a>
+  <a href="https://github.com/H-Freax/Storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+    <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat&logo=github&logoColor=white" alt="GitHub Code" />
+  </a>
+  <a href="https://huggingface.co/datasets/FreaxRuby/storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+    <img src="https://img.shields.io/badge/Dataset-HuggingFace-FF6F00?style=flat&logo=huggingface&logoColor=white" alt="HuggingFace Dataset" />
+  </a>
+  <a href="https://v0-dialogue-analysis-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+    <img src="https://img.shields.io/badge/Dashboard-Visualization-0066CC?style=flat&logo=chartdotjs&logoColor=white" alt="Dashboard Visualization" />
+  </a>
 </p>
-
 
 ---
-
 <h2 align="center">Authors</h2>
 
-<p align="center">
+<p align="center" style="font-size:1.1em; line-height:1.6;">
 
-<a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Yaoyao%20Qian%20(Lead)-Northeastern%20University-0366d6?style=for-the-badge&logo=university&logoColor=white" alt="Yaoyao Qian (Lead) — Northeastern University" />
-</a>
+  <a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Yaoyao Qian (Lead) <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://jindanh.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Jindan%20Huang-Tufts%20University-254473?style=for-the-badge&logo=university&logoColor=white" alt="Jindan Huang — Tufts University" />
-</a>
+  <a href="https://jindanh.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Jindan Huang <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tufts_official_seal.svg/1920px-Tufts_official_seal.svg.png" alt="Tufts University" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://pentium3.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Yuanli%20Wang-Boston%20University-cc0000?style=for-the-badge&logo=university&logoColor=white" alt="Yuanli Wang — Boston University" />
-</a>
+  <a href="https://pentium3.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Yuanli Wang <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Boston_University_Terriers_logo.svg/1200px-Boston_University_Terriers_logo.svg.png" alt="Boston University" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://simonucl.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Simon%20Yu-Northeastern%20University-0366d6?style=for-the-badge&logo=university&logoColor=white" alt="Simon Yu — Northeastern University" />
-</a>
+  <a href="https://simonucl.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Simon Yu <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://kyriezz.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Kyrie%20Zhixuan%20Zhou-UT%20San%20Antonio-004c97?style=for-the-badge&logo=university&logoColor=white" alt="Kyrie Zhixuan Zhou — UT San Antonio" />
-</a>
+  <a href="https://kyriezz.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Kyrie Zhixuan Zhou <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/University_of_Texas_at_San_Antonio_seal.svg/1200px-University_of_Texas_at_San_Antonio_seal.svg.png" alt="UT San Antonio" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://jiayuanm.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Jiayuan%20Mao-MIT-a31f34?style=for-the-badge&logo=academic-cap&logoColor=white" alt="Jiayuan Mao — MIT" />
-</a>
+  <a href="https://jiayuanm.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Jiayuan Mao <sup><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://www.mingfuliang.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Mingfu%20Liang-Northwestern%20University-4e2a84?style=for-the-badge&logo=university&logoColor=white" alt="Mingfu Liang — Northwestern University" />
-</a>
+  <a href="https://www.mingfuliang.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Mingfu Liang <sup><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png" alt="Northwestern University" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
-<a href="https://hanhanzhou.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
-  <img src="https://img.shields.io/badge/Hanhan%20Zhou-George%20Washington%20University-5a2d81?style=for-the-badge&logo=university&logoColor=white" alt="Hanhan Zhou — George Washington University" />
-</a>
+  <a href="https://hanhanzhou.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
+    Hanhan Zhou <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/George_Washington_University_seal.svg/1920px-George_Washington_University_seal.svg.png" alt="George Washington University" width="16" style="vertical-align: middle;"></sup>
+  </a>
 
 </p>
+
+<p align="center" style="margin-top: 1.2em; line-height: 1.4;">
+  <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Northeastern University &nbsp;&nbsp;&nbsp;
+  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tufts_official_seal.svg/1920px-Tufts_official_seal.svg.png" alt="Tufts University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Tufts University &nbsp;&nbsp;&nbsp;
+  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Boston_University_Terriers_logo.svg/1200px-Boston_University_Terriers_logo.svg.png" alt="Boston University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Boston University &nbsp;&nbsp;&nbsp;
+  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/University_of_Texas_at_San_Antonio_seal.svg/1200px-University_of_Texas_at_San_Antonio_seal.svg.png" alt="UT San Antonio" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> University of Texas at San Antonio
+  <br />
+  <sup><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Massachusetts Institute of Technology &nbsp;&nbsp;&nbsp;
+  <sup><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png" alt="Northwestern University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Northwestern University &nbsp;&nbsp;&nbsp;
+  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/George_Washington_University_seal.svg/1920px-George_Washington_University_seal.svg.png" alt="George Washington University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> George Washington University
+</p>
+
+<p align="center" style="margin-top: 2em; font-size: 0.9em; color: #555;">
+  <span style="vertical-align: middle;">&#128231;</span>
+  &nbsp;<strong>Corresponding author:</strong> 
+  <a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="color: #0366d6; text-decoration: none; font-weight: 600;">
+    Yaoyao Qian
+  </a>
+</p>
+
+
+
 
 ---
 
