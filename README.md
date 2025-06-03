@@ -31,7 +31,7 @@ Welcome to the official repository for **STORM**, a framework that models asymme
 <p align="center" style="font-size:1.1em; line-height:1.6;">
 
   <a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Yaoyao Qian (Lead) <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="vertical-align: middle;"></sup>
+    Yaoyao Qian <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="vertical-align: middle;"></sup>
   </a>
 
   <a href="https://jindanh.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
