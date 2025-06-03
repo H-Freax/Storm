@@ -1,6 +1,86 @@
-# STORM: Advanced Dialogue Generation System
+# STORM: Official Repository for "WHEN TO ACT, WHEN TO WAIT"
 
-STORM is a sophisticated dialogue generation system that implements asymmetric conversation generation with Retrieval-Augmented Generation (RAG) capabilities. The system is designed to create natural, context-aware dialogues between users and assistants.
+> Structured Task-Oriented Representation Model for Intent Triggerability  
+> in Task-Oriented Dialogue Systems
+
+Welcome to the official repository for **STORM**, a framework that models asymmetric information dynamics between user and agent LLMs to track and trigger user intents effectively in task-oriented dialogue.
+
+
+<p align="center">
+
+<a href="https://nanostorm.netlify.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+  <img src="https://img.shields.io/badge/Project-Page-1E90FF?style=flat-square&logo=chromium&logoColor=white" alt="Project Page" />
+</a>
+
+<a href="#" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+  <img src="https://img.shields.io/badge/arXiv-PDF--Coming--Soon-DC143C?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv PDF Coming Soon" />
+</a>
+
+<a href="https://github.com/H-Freax/Storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+  <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Code" />
+</a>
+
+<a href="https://huggingface.co/datasets/FreaxRuby/storm" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+  <img src="https://img.shields.io/badge/Dataset-HuggingFace-FF6F00?style=flat-square&logo=huggingface&logoColor=white" alt="HuggingFace Dataset" />
+</a>
+
+<a href="https://v0-dialogue-analysis-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" style="margin: 6px;">
+  <img src="https://img.shields.io/badge/Dashboard-Visualization-0066CC?style=flat-square&logo=chartdotjs&logoColor=white" alt="Dashboard Visualization" />
+</a>
+
+</p>
+
+
+---
+
+<h2 align="center">Authors</h2>
+
+<p align="center">
+
+<a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Yaoyao%20Qian%20(Lead)-Northeastern%20University-0366d6?style=for-the-badge&logo=university&logoColor=white" alt="Yaoyao Qian (Lead) — Northeastern University" />
+</a>
+
+<a href="https://jindanh.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Jindan%20Huang-Tufts%20University-254473?style=for-the-badge&logo=university&logoColor=white" alt="Jindan Huang — Tufts University" />
+</a>
+
+<a href="https://pentium3.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Yuanli%20Wang-Boston%20University-cc0000?style=for-the-badge&logo=university&logoColor=white" alt="Yuanli Wang — Boston University" />
+</a>
+
+<a href="https://simonucl.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Simon%20Yu-Northeastern%20University-0366d6?style=for-the-badge&logo=university&logoColor=white" alt="Simon Yu — Northeastern University" />
+</a>
+
+<a href="https://kyriezz.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Kyrie%20Zhixuan%20Zhou-UT%20San%20Antonio-004c97?style=for-the-badge&logo=university&logoColor=white" alt="Kyrie Zhixuan Zhou — UT San Antonio" />
+</a>
+
+<a href="https://jiayuanm.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Jiayuan%20Mao-MIT-a31f34?style=for-the-badge&logo=academic-cap&logoColor=white" alt="Jiayuan Mao — MIT" />
+</a>
+
+<a href="https://www.mingfuliang.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Mingfu%20Liang-Northwestern%20University-4e2a84?style=for-the-badge&logo=university&logoColor=white" alt="Mingfu Liang — Northwestern University" />
+</a>
+
+<a href="https://hanhanzhou.com/" target="_blank" rel="noopener noreferrer" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Hanhan%20Zhou-George%20Washington%20University-5a2d81?style=for-the-badge&logo=university&logoColor=white" alt="Hanhan Zhou — George Washington University" />
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  <strong>Overview of the STORM Framework</strong>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a456f5ec-cc82-4a8b-a1c1-5569d8674df3" alt="STORM Architecture" />
+</p>
+---
 
 ## Core Features
 
@@ -81,6 +161,14 @@ If you want to run it, please move the `example_data/profiles` folder to the roo
 ```bash
 ./scripts/import_and_test_rag.sh 
 ```
+
+
+
+
+## 📬 Contact
+
+For questions, bug reports, or collaboration inquiries, please contact:  
+**Yaoyao(Freax) Qian** — [qian.ya@northeastern.edu](mailto:qian.ya@northeastern.edu)
 
 
 ## License
