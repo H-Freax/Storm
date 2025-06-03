@@ -27,53 +27,101 @@ Welcome to the official repository for **STORM**, a framework that models asymme
 
 ---
 <h2 align="center">Authors</h2>
-
 <p align="center" style="font-size:1.1em; line-height:1.6;">
 
-  <a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Yaoyao Qian <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="vertical-align: middle;"></sup>
-  </a>
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://h-freax.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Yaoyao Qian 
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>&nbsp;&nbsp;&nbsp;
 
-  <a href="https://jindanh.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Jindan Huang <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tufts_official_seal.svg/1920px-Tufts_official_seal.svg.png" alt="Tufts University" width="16" style="vertical-align: middle;"></sup>
-  </a>
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://jindanh.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Jindan Huang
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tufts_official_seal.svg/1920px-Tufts_official_seal.svg.png" alt="Tufts University" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>&nbsp;&nbsp;&nbsp;
 
-  <a href="https://pentium3.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Yuanli Wang <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Boston_University_Terriers_logo.svg/1200px-Boston_University_Terriers_logo.svg.png" alt="Boston University" width="16" style="vertical-align: middle;"></sup>
-  </a>
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://pentium3.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Yuanli Wang
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Boston_University_Terriers_logo.svg/1200px-Boston_University_Terriers_logo.svg.png" alt="Boston University" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>&nbsp;&nbsp;&nbsp;
 
-  <a href="https://simonucl.github.io/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Simon Yu <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="vertical-align: middle;"></sup>
-  </a>
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://simonucl.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Simon Yu
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>
 
-  <a href="https://kyriezz.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Kyrie Zhixuan Zhou <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/University_of_Texas_at_San_Antonio_seal.svg/1200px-University_of_Texas_at_San_Antonio_seal.svg.png" alt="UT San Antonio" width="16" style="vertical-align: middle;"></sup>
-  </a>
-
-  <a href="https://jiayuanm.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Jiayuan Mao <sup><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="16" style="vertical-align: middle;"></sup>
-  </a>
-
-  <a href="https://www.mingfuliang.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Mingfu Liang <sup><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png" alt="Northwestern University" width="16" style="vertical-align: middle;"></sup>
-  </a>
-
-  <a href="https://hanhanzhou.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 16px;">
-    Hanhan Zhou <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/George_Washington_University_seal.svg/1920px-George_Washington_University_seal.svg.png" alt="George Washington University" width="16" style="vertical-align: middle;"></sup>
-  </a>
-
-</p>
-
-<p align="center" style="margin-top: 1.2em; line-height: 1.4;">
-  <sup><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Northeastern University &nbsp;&nbsp;&nbsp;
-  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tufts_official_seal.svg/1920px-Tufts_official_seal.svg.png" alt="Tufts University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Tufts University &nbsp;&nbsp;&nbsp;
-  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Boston_University_Terriers_logo.svg/1200px-Boston_University_Terriers_logo.svg.png" alt="Boston University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Boston University &nbsp;&nbsp;&nbsp;
-  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/University_of_Texas_at_San_Antonio_seal.svg/1200px-University_of_Texas_at_San_Antonio_seal.svg.png" alt="UT San Antonio" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> University of Texas at San Antonio
   <br />
-  <sup><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Massachusetts Institute of Technology &nbsp;&nbsp;&nbsp;
-  <sup><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png" alt="Northwestern University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> Northwestern University &nbsp;&nbsp;&nbsp;
-  <sup><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/George_Washington_University_seal.svg/1920px-George_Washington_University_seal.svg.png" alt="George Washington University" width="20" style="vertical-align: middle; margin-right: 6px;"></sup> George Washington University
+
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://kyriezz.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Kyrie Zhixuan Zhou
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/University_of_Texas_at_San_Antonio_seal.svg/1200px-University_of_Texas_at_San_Antonio_seal.svg.png" alt="UT San Antonio" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>&nbsp;&nbsp;&nbsp;
+
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://jiayuanm.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Jiayuan Mao
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>&nbsp;&nbsp;&nbsp;
+
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://www.mingfuliang.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Mingfu Liang
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png" alt="Northwestern University" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>&nbsp;&nbsp;&nbsp;
+
+  <span style="position: relative; display: inline-block; margin: 0 20px; padding-right: 20px; font-weight: 600;">
+    <a href="https://hanhanzhou.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+      Hanhan Zhou
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/George_Washington_University_seal.svg/1920px-George_Washington_University_seal.svg.png" alt="George Washington University" width="16" style="position: absolute; top: 0; right: 0;" />
+  </span>
+
 </p>
+
+
+
+<p align="center" style="margin-top: 1.2em; line-height: 1.6; font-size: 1em;">
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/NU_RGB_seal_R.png" alt="Northeastern University" width="20" style="position: relative; top: 2px;">
+  </span> Northeastern University &nbsp;&nbsp;&nbsp;
+  
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tufts_official_seal.svg/1920px-Tufts_official_seal.svg.png" alt="Tufts University" width="20" style="position: relative; top: 2px;">
+  </span> Tufts University &nbsp;&nbsp;&nbsp;
+  
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Boston_University_Terriers_logo.svg/1200px-Boston_University_Terriers_logo.svg.png" alt="Boston University" width="20" style="position: relative; top: 2px;">
+  </span> Boston University &nbsp;&nbsp;&nbsp;
+  
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/University_of_Texas_at_San_Antonio_seal.svg/1200px-University_of_Texas_at_San_Antonio_seal.svg.png" alt="UT San Antonio" width="20" style="position: relative; top: 2px;">
+  </span> University of Texas at San Antonio
+  <br />
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="20" style="position: relative; top: 2px;">
+  </span> Massachusetts Institute of Technology &nbsp;&nbsp;&nbsp;
+  
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png" alt="Northwestern University" width="20" style="position: relative; top: 2px;">
+  </span> Northwestern University &nbsp;&nbsp;&nbsp;
+  
+  <span style="vertical-align: middle; margin-right: 6px;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/George_Washington_University_seal.svg/1920px-George_Washington_University_seal.svg.png" alt="George Washington University" width="20" style="position: relative; top: 2px;">
+  </span> George Washington University
+</p>
+
+
 
 <p align="center" style="margin-top: 2em; font-size: 0.9em; color: #555;">
   <span style="vertical-align: middle;">&#128231;</span>
