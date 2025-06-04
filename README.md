@@ -233,7 +233,29 @@ If you want to run it, please move the `example_data/profiles` folder to the roo
 ./scripts/import_and_test_rag.sh 
 ```
 
+---
 
+## ❤️ Acknowledgement
+
+We gratefully acknowledge the 🐪 [CAMEL](https://github.com/camel-ai/camel) codebase for providing essential resources that supported this work.
+
+---
+
+## 📚 Citation
+
+If you use this work, please cite our paper:
+
+```
+@misc{qian2025actwaitmodelingstructural,
+  title={WHEN TO ACT, WHEN TO WAIT: Modeling Structural Trajectories for Intent Triggerability in Task-Oriented Dialogue}, 
+  author={Yaoyao Qian and Jindan Huang and Yuanli Wang and Simon Yu and Kyrie Zhixuan Zhou and Jiayuan Mao and Mingfu Liang and Hanhan Zhou},
+  year={2025},
+  eprint={2506.01881},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2506.01881}
+}
+```
 
 
 ## 📬 Contact
@@ -242,6 +264,3 @@ For questions, bug reports, or collaboration inquiries, please contact:
 **Yaoyao(Freax) Qian** — [qian.ya@northeastern.edu](mailto:qian.ya@northeastern.edu)
 
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
