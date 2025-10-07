@@ -1,7 +1,5 @@
-# STORM: Official Repository for "WHEN TO ACT, WHEN TO WAIT"
+# STORM: Official Repository for "WHEN TO ACT, WHEN TO WAIT: Modeling the Intent-Action Alignment Problem in Dialogue"
 
-> Structured Task-Oriented Representation Model for Intent Triggerability  
-> in Task-Oriented Dialogue Systems
 
 Welcome to the official repository for **STORM**, a framework that models asymmetric information dynamics between user and agent LLMs to track and trigger user intents effectively in task-oriented dialogue.
 
@@ -246,14 +244,13 @@ We gratefully acknowledge the 🐪 [CAMEL](https://github.com/camel-ai/camel) co
 If you use this work, please cite our paper:
 
 ```
-@misc{qian2025actwaitmodelingstructural,
-  title={WHEN TO ACT, WHEN TO WAIT: Modeling Structural Trajectories for Intent Triggerability in Task-Oriented Dialogue}, 
-  author={Yaoyao Qian and Jindan Huang and Yuanli Wang and Simon Yu and Kyrie Zhixuan Zhou and Jiayuan Mao and Mingfu Liang and Hanhan Zhou},
-  year={2025},
-  eprint={2506.01881},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
-  url={https://arxiv.org/abs/2506.01881}
+@inproceedings{
+qian2025when,
+title={{WHEN} {TO} {ACT}, {WHEN} {TO} {WAIT}: Modeling Structural Trajectories for Intent Triggerability in Task-Oriented Dialogue},
+author={Yaoyao Qian and Jindan Huang and Yuanli Wang and Simon Yu and Kyrie Zhixuan Zhou and Jiayuan Mao and Mingfu Liang and Hanhan Zhou},
+booktitle={First Workshop on Social Simulation with LLMs},
+year={2025},
+url={https://openreview.net/forum?id=6Vm8A6ejRq}
 }
 ```
 
